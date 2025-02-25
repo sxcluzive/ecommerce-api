@@ -1,0 +1,45 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# Virtual environments
+venv/
+*.venv
+
+# Environment variables
+.env
+*.env
+
+# Logs and debug files
+*.log
+logs/
+debug.log
+
+# Test results
+.coverage
+htmlcov/
+.pytest_cache/
+
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Docker-related files
+*.dockerignore
+Dockerfile.*
+docker-compose.override.yml
+*.pid
+
+# PostgreSQL data (if using a local volume)
+pgdata/
+postgres_data/
